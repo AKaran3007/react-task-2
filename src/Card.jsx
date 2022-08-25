@@ -4,7 +4,7 @@ import React from "react";
 
 function Card({list,ele,handletoCart}){
     return <div class="col-lg-4 mb-2">
-    <div class="card" style={{width: "17rem" }}>
+    <div class="card" style={{width: "15rem" }}>
         <img src={`${list.imageUrl}`} class="card-img-top" alt="https://picsum.photos/200/100" />
         <div class="card-body">
           <h5 class="card-title">{list.title}</h5>
